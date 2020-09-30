@@ -1,0 +1,5137 @@
+[
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host maintenance mode (true / false)",
+        "key": "vmware_host_maintenance_mode",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_vmmemctl_average",
+        "key": "vmware_host_mem_vmmemctl_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_multicastTx_summation",
+        "key": "vmware_vm_net_multicastTx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_transmitted_average",
+        "key": "vmware_vm_net_transmitted_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_demand_average",
+        "key": "vmware_host_cpu_demand_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_usagemhz_average",
+        "key": "vmware_vm_cpu_usagemhz_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host connection state (connected / disconnected / notResponding)",
+        "key": "vmware_host_connection_state",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "connected",
+                "name": "state",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "connected",
+                "name": "state",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_idle_summation",
+        "key": "vmware_host_cpu_idle_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_errorsTx_summation",
+        "key": "vmware_host_net_errorsTx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_usage_average",
+        "key": "vmware_host_cpu_usage_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Datastore uncommitted in bytes",
+        "key": "vmware_datastore_uncommited_size",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_swapin_average",
+        "key": "vmware_host_mem_swapin_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host CPU max availability in Mhz",
+        "key": "vmware_host_cpu_max",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_bytesRx_average",
+        "key": "vmware_host_net_bytesRx_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "bytes",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Hosts number using this datastore",
+        "key": "vmware_datastore_hosts",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Number of processors in the virtual machine",
+        "key": "vmware_vm_num_cpu",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Disk metric per partition",
+        "key": "vmware_vm_guest_disk_free",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "/",
+                "name": "partition",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "10.144-demo",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "/",
+                "name": "partition",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "10.144-demo",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host Standby Mode (entering / exiting / in / none)",
+        "key": "vmware_host_standby_mode",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "none",
+                "name": "standby_mode_state",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "none",
+                "name": "standby_mode_state",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_droppedTx_summation",
+        "key": "vmware_host_net_droppedTx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare datastore maintenance mode (normal / inMaintenance / enteringMaintenance)",
+        "key": "vmware_datastore_maintenance_mode",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "normal",
+                "name": "mode",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "normal",
+                "name": "mode",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_multicastRx_summation",
+        "key": "vmware_vm_net_multicastRx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VM tools version status",
+        "key": "vmware_vm_guest_tools_version_status",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "guestToolsNotInstalled",
+                "name": "tools_version_status",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "guestToolsNotInstalled",
+                "name": "tools_version_status",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A metric with a constant \"1\" value labeled by model and cpu model from the host.",
+        "key": "vmware_host_hardware_info",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+                "name": "hardware_cpu_model",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "PowerEdge R720xd",
+                "name": "hardware_model",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+                "name": "hardware_cpu_model",
+                "readOnly": false
+            },
+            {
+                "default": "PowerEdge R720xd",
+                "name": "hardware_model",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Datastore provisoned in bytes",
+        "key": "vmware_datastore_provisoned_size",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_mem_active_average",
+        "key": "vmware_vm_mem_active_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_ready_summation",
+        "key": "vmware_vm_cpu_ready_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Datasore capacity in bytes",
+        "key": "vmware_datastore_capacity_size",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_swapinRate_average",
+        "key": "vmware_host_mem_swapinRate_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_mem_swapped_average",
+        "key": "vmware_vm_mem_swapped_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_received_average",
+        "key": "vmware_vm_net_received_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host CPU usage in Mhz",
+        "key": "vmware_host_cpu_usage",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host Power state (On / Off)",
+        "key": "vmware_host_power_state",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_demand_average",
+        "key": "vmware_vm_cpu_demand_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_broadcastTx_summation",
+        "key": "vmware_vm_net_broadcastTx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host boot time in seconds",
+        "key": "vmware_host_boot_timestamp_seconds",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "seconds",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_usage_average",
+        "key": "vmware_host_net_usage_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_mem_usage_average",
+        "key": "vmware_vm_mem_usage_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare VM Power state (On / Off)",
+        "key": "vmware_vm_power_state",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_disk_read_average",
+        "key": "vmware_host_disk_read_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VM tools version",
+        "key": "vmware_vm_guest_tools_version",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "0",
+                "name": "tools_version",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "0",
+                "name": "tools_version",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_ready_summation",
+        "key": "vmware_host_cpu_ready_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_swapoutRate_average",
+        "key": "vmware_host_mem_swapoutRate_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare VM Template (true / false)",
+        "key": "vmware_vm_template",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_droppedRx_summation",
+        "key": "vmware_host_net_droppedRx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_errorsRx_summation",
+        "key": "vmware_host_net_errorsRx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Datastore freespace in bytes",
+        "key": "vmware_datastore_freespace_size",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare current number of existing snapshots",
+        "key": "vmware_vm_snapshots",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "K8S-host3",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "K8S-host3",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_net_bytesTx_average",
+        "key": "vmware_host_net_bytesTx_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "bytes",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host Memory usage in Mbytes",
+        "key": "vmware_host_memory_usage",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Virtual Machines count per datastore",
+        "key": "vmware_datastore_vms",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_usage_average",
+        "key": "vmware_vm_cpu_usage_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_costop_summation",
+        "key": "vmware_vm_cpu_costop_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_active_average",
+        "key": "vmware_host_mem_active_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "A metric with a constant \"1\" value labeled by version and build from os the host.",
+        "key": "vmware_host_product_info",
+        "paramDefine": [
+            {
+                "default": "4564106",
+                "name": "build",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "6.5.0",
+                "name": "version",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "4564106",
+                "name": "build",
+                "readOnly": false
+            },
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "6.5.0",
+                "name": "version",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_mem_vmmemctl_average",
+        "key": "vmware_vm_mem_vmmemctl_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_latency_average",
+        "key": "vmware_host_mem_latency_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare VM Memory Max availability in Mbytes",
+        "key": "vmware_vm_memory_max",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Snapshot creation time in seconds",
+        "key": "vmware_vm_snapshot_timestamp_seconds",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "K8S-host3",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "刚安装好的干净环境",
+                "name": "vm_snapshot_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "K8S-host3",
+                "name": "vm_name",
+                "readOnly": false
+            },
+            {
+                "default": "刚安装好的干净环境",
+                "name": "vm_snapshot_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "seconds",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_usagemhz_average",
+        "key": "vmware_host_cpu_usagemhz_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_disk_read_average",
+        "key": "vmware_vm_disk_read_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_droppedTx_summation",
+        "key": "vmware_vm_net_droppedTx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Number of processors in the Host",
+        "key": "vmware_host_num_cpu",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_disk_write_average",
+        "key": "vmware_vm_disk_write_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_disk_maxTotalLatency_latest",
+        "key": "vmware_vm_disk_maxTotalLatency_latest",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare VM boot time in seconds",
+        "key": "vmware_vm_boot_timestamp_seconds",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "seconds",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VM tools running status",
+        "key": "vmware_vm_guest_tools_running_status",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "toolsNotInstalled",
+                "name": "tools_status",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "toolsNotInstalled",
+                "name": "tools_status",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_used_summation",
+        "key": "vmware_host_cpu_used_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare datastore type (VMFS, NetworkFileSystem, NetworkFileSystem41, CIFS, VFAT, VSAN, VFFS)",
+        "key": "vmware_datastore_type",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "VMFS",
+                "name": "ds_type",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "VMFS",
+                "name": "ds_type",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "Disk capacity metric per partition",
+        "key": "vmware_vm_guest_disk_capacity",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "/",
+                "name": "partition",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "10.144-demo",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "/",
+                "name": "partition",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "10.144-demo",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_droppedRx_summation",
+        "key": "vmware_vm_net_droppedRx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare Host Memory Max availability in Mbytes",
+        "key": "vmware_host_memory_max",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_idle_summation",
+        "key": "vmware_vm_cpu_idle_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare datastore accessible (true / false)",
+        "key": "vmware_datastore_accessible",
+        "paramDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "name": "ds_cluster",
+                "readOnly": false
+            },
+            {
+                "default": "datastore1",
+                "name": "ds_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "VMWare VM Cpu Max availability in hz",
+        "key": "vmware_vm_max_cpu_usage",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_costop_summation",
+        "key": "vmware_host_cpu_costop_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_cpu_swapwait_summation",
+        "key": "vmware_host_cpu_swapwait_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_net_broadcastRx_summation",
+        "key": "vmware_vm_net_broadcastRx_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_mem_swapout_average",
+        "key": "vmware_host_mem_swapout_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_cpu_maxlimited_summation",
+        "key": "vmware_vm_cpu_maxlimited_summation",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_mem_consumed_average",
+        "key": "vmware_vm_mem_consumed_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_host_disk_write_average",
+        "key": "vmware_host_disk_write_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            }
+        ],
+        "data_type": "double",
+        "metric_type": "gauge",
+        "unit": ""
+    },
+    {
+        "agentType": "prometheus",
+        "help": "vmware_vm_disk_usage_average",
+        "key": "vmware_vm_disk_usage_average",
+        "paramDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false,
+                "valueType": "string"
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false,
+                "valueType": "string"
+            }
+        ],
+        "tagDefine": [
+            {
+                "default": "DEMO环境",
+                "name": "cluster_name",
+                "readOnly": false
+            },
+            {
+                "default": "Datacenter",
+                "name": "dc_name",
+                "readOnly": false
+            },
+            {
+                "default": "192.168.10.252",
+                "name": "host_name",
+                "readOnly": false
+            },
+            {
+                "default": "n/a",
+                "name": "tags",
+                "readOnly": false
+            },
+            {
+                "default": "win2008_test",
+                "name": "vm_name",
+                "readOnly": false
+            }
+        ],
+        "unit": "percent(1)",
+        "data_type": "double",
+        "metric_type": "gauge"
+    }
+]
