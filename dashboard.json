@@ -1,0 +1,117 @@
+[
+    {
+        "_object_id": "_DASHBOARD",
+        "namespace": "resource-monitor.HOST",
+        "name": "VMware 实例总览",
+        "panels": [
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"个\",\"precision\":0},\"icon\":{\"lib\":\"easyops\",\"category\":\"idc\",\"icon\":\"host\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"cluster_name\",\"dc_name\",\"host_name\",\"tags\",\"vm_name\",\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_power_state\",\"function\":{\"expression\":\"count\",\"args\":[\"vmware_vm_power_state\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-5m\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}]}],\"transform\":{\"value\":\"<% DATA.list.filter(item => item.vmware_vm_power_state > 0).length %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "运行的虚拟机数量",
+                "width": 12,
+                "x": 0,
+                "y": 0
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"ms\"},\"icon\":{\"lib\":\"antd\",\"icon\":\"clock-circle\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_boot_timestamp_seconds\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_vm_boot_timestamp_seconds\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}],\"limit\":{\"limit\":1}}],\"transform\":{\"value\":\"<% _.get(DATA.list, \\\"[0].vmware_vm_boot_timestamp_seconds\\\") %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "虚拟机平均运行时长",
+                "width": 8,
+                "x": 0,
+                "y": 5
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"个\"},\"icon\":{\"lib\":\"easyops\",\"category\":\"model\",\"icon\":\"cpu\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_num_cpu\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_vm_num_cpu\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}],\"limit\":{\"limit\":1}}],\"transform\":{\"value\":\"<% _.get(DATA.list, \\\"[0].vmware_vm_num_cpu\\\") %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "虚拟机平均CPU数量",
+                "width": 8,
+                "x": 8,
+                "y": 5
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"个\",\"precision\":0},\"icon\":{\"lib\":\"fa\",\"icon\":\"camera\",\"prefix\":\"fas\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_snapshots\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_vm_snapshots\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}],\"limit\":{\"limit\":1}}],\"transform\":{\"value\":\"<% _.get(DATA.list, \\\"[0].vmware_vm_snapshots\\\") %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "虚拟机快照总数",
+                "width": 12,
+                "x": 0,
+                "y": 10
+            },
+            {
+                "brickConf": "{\"brick\":\"chart-v2.time-series-chart\",\"properties\":{\"showCard\":false,\"height\":300,\"xField\":\"time\",\"yFields\":[\"vmware_datastore_vms\"],\"groupFields\":[\"ds_name\"],\"axis\":{\"yAxis\":{\"min\":0}},\"interactions\":[{\"type\":\"custom-brush-x\",\"cfg\":{\"enablePushQuery\":true,\"fromKey\":\"from\",\"toKey\":\"to\"}}]},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"ds_name\",\"time(auto)\"],\"measures\":[{\"name\":\"vmware_datastore_vms\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_datastore_vms\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}]}],\"transform\":{\"data\":\"@{list}\",\"xRange\":{\"from\":\"@{from}\",\"to\":\"@{to}\",\"step\":\"@{step}\"}},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 10,
+                "id": "chart-v2.line-chart",
+                "links": "[]",
+                "source": "brick",
+                "title": "每个数据存储的虚拟机数量",
+                "width": 24,
+                "x": 0,
+                "y": 15
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"个\",\"precision\":0},\"icon\":{\"lib\":\"easyops\",\"category\":\"idc\",\"icon\":\"host\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"cluster_name\",\"dc_name\",\"host_name\",\"tags\",\"vm_name\",\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_power_state\",\"function\":{\"expression\":\"count\",\"args\":[\"vmware_vm_power_state\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-5m\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}]}],\"transform\":{\"value\":\"<% DATA.list.filter(item => item.vmware_vm_power_state === 0).length %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "停止的虚拟机数量",
+                "width": 12,
+                "x": 12,
+                "y": 0
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"mb\"},\"icon\":{\"lib\":\"easyops\",\"category\":\"model\",\"icon\":\"memory\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_memory_max\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_vm_memory_max\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}],\"limit\":{\"limit\":1}}],\"transform\":{\"value\":\"<% _.get(DATA.list, \\\"[0].vmware_vm_memory_max\\\") %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "虚拟机平均内存大小",
+                "width": 8,
+                "x": 16,
+                "y": 5
+            },
+            {
+                "brickConf": "{\"brick\":\"general-charts.statistic-card\",\"properties\":{\"showCard\":false,\"format\":{\"unit\":\"ms\"},\"icon\":{\"lib\":\"antd\",\"icon\":\"clock-circle\"}},\"lifeCycle\":{\"useResolves\":[{\"provider\":\"providers-of-data-exchange.olap-api-query\",\"args\":[{\"model\":\"<% \\\"easyops.\\\" + PARAMS.get(\\\"objectId\\\") %>\",\"dims\":[\"time(auto)\"],\"measures\":[{\"name\":\"vmware_vm_snapshot_timestamp_seconds\",\"function\":{\"expression\":\"avg\",\"args\":[\"vmware_vm_snapshot_timestamp_seconds\"]}}],\"filters\":[{\"name\":\"instanceId\",\"operator\":\"==\",\"value\":\"${QUERY.instanceId|string}\"},{\"name\":\"time\",\"operator\":\">=\",\"value\":\"${QUERY.from=\\\"now-1h\\\"|string}\"},{\"name\":\"time\",\"operator\":\"<=\",\"value\":\"${QUERY.to=\\\"now-1s\\\"|string}\"}],\"order\":[{\"name\":\"time\",\"order\":\"desc\"}],\"limit\":{\"limit\":1}}],\"transform\":{\"value\":\"<% _.get(DATA.list, \\\"[0].vmware_vm_snapshot_timestamp_seconds\\\") %>\"},\"onReject\":{\"transform\":{\"error\":\"<% DATA.message || '接口请求错误' %>\"}}}]}}",
+                "height": 5,
+                "id": "general-charts.statistic-card",
+                "links": "[]",
+                "source": "brick",
+                "title": "虚拟机快照平均时长",
+                "width": 12,
+                "x": 12,
+                "y": 10
+            }
+        ],
+        "variables": [
+            {
+                "id": "objectId",
+                "multiSelect": false,
+                "name": "模型 ID",
+                "selectorDefaultValue": "HOST",
+                "showSelector": false,
+                "type": "cmdb-model"
+            },
+            {
+                "id": "instanceId",
+                "multiSelect": false,
+                "name": "实例 ID",
+                "selectorDefaultValue": "",
+                "selectorObjectId": "HOST",
+                "selectorQuery": "{}",
+                "showSelector": false,
+                "type": "cmdb"
+            }
+        ]
+    }
+]
