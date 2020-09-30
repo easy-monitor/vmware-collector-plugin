@@ -1,0 +1,10 @@
+agentType: prometheus
+type: exporter
+
+name: vmware_collector_plugin
+version: 1.0.0
+
+category: 虚拟化
+params:
+    - config_file_path
+    - exporter_port
